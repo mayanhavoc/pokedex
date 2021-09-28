@@ -1,0 +1,34 @@
+.Pokecard {
+    display: flex;
+    flex-direction: column;
+    padding: 2px 16px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.Pokecard-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 1px solid rgb(106, 106, 106);
+}
+
+.Pokecard-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.Pokecard-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Pokecard-card-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.Pokecard-card-description {
+    border-top: 1px solid rgb(106, 106, 106);
+    padding: 12px 0;
+}
+
